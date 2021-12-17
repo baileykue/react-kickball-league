@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
 import Home from './views/Home/Home';
 import Teams from './views/Teams/Teams';
+import TeamDetail from './components/TeamList/TeamDetail';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route path="/teams/:id" component={TeamDetail} />
           <Route path="/teams" component={Teams} />
         </Switch>
       </BrowserRouter>
