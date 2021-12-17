@@ -1,14 +1,20 @@
 import './App.css';
 import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
 import Home from './views/Home/Home';
+import Teams from './views/Teams/Teams';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavLink to="/">Home</NavLink>
+        <NavLink exact to="/">
+          Home
+        </NavLink>
+        <NavLink to="/teams">Teams</NavLink>
+
         <Switch>
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
+          <Route path="/teams" component={Teams} />
         </Switch>
       </BrowserRouter>
     </div>
