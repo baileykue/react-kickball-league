@@ -12,6 +12,7 @@ function App() {
           Home
         </NavLink>
         <NavLink to="/teams">Teams</NavLink>
+        <NavLink to="/players">Players</NavLink>
 
         <Switch>
           <Route exact path="/" component={Home} />

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import TeamDetail from '../../views/Teams/TeamDetail';
 
 export default function TeamLink({ team }) {
   return (
     <div>
-      <Link key={team.id} to={`/teams/${team.id}`}>
-        {team.name}
-      </Link>
+      <TeamDetail team={team} />
     </div>
   );
 }
