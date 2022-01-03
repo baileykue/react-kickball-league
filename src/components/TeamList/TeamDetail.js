@@ -1,8 +1,7 @@
 import React from 'react';
-import PlayerLink from '../../components/PlayerList/PlayerLink';
+import PlayerLink from '../PlayerList/PlayerLink';
 
-export default function Team({ team }) {
-  console.log(team);
+export default function TeamDetail({ team }) {
   return (
     <div>
       {team.players.map((player) => (

@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter, NavLink, Switch, Route } from 'react-router-dom';
 import Home from './views/Home/Home';
 import Teams from './views/Teams/Teams';
-import Team from './components/TeamList/Team';
+import Team from './views/Teams/Team';
 
 function App() {
   return (
