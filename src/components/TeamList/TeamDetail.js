@@ -4,7 +4,7 @@ import PlayerLink from '../PlayerList/PlayerLink';
 export default function TeamDetail({ team }) {
   return (
     <div>
-      {team.players.map((player) => (
+      {team[0].players.map((player) => (
         <PlayerLink key={player.id} player={player} />
       ))}
     </div>

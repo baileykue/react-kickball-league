@@ -13,7 +13,7 @@ export default function Team(props) {
     const fetchData = async () => {
       const data = await getTeamById(id);
       //const data = await fetchById(params.id);
-      setTeam(data[0]);
+      setTeam(data);
       setLoading(false);
     };
     fetchData();
