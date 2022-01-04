@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a player's details 1`] = `
+<div>
+  <div
+    class="detail"
+  >
+    <div
+      class="detail"
+    >
+      <h1>
+        Hans Olo
+      </h1>
+      <h3>
+        Position: 
+        Catcher
+      </h3>
+      <label>
+        Team:
+        <a
+          href="/teams/1"
+        >
+          Bridge City Sneakers
+        </a>
+      </label>
+    </div>
+  </div>
+</div>
+`;

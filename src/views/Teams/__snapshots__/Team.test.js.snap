@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a team's details 1`] = `
+<div>
+  <div
+    class="teams"
+  >
+    <h1>
+      These are the Teams
+    </h1>
+    <div>
+      <a
+        href="/teams/1"
+      >
+        Bridge City Sneakers
+      </a>
+    </div>
+    <div>
+      <a
+        href="/teams/3"
+      >
+        Lakeville Thunderfeet
+      </a>
+    </div>
+    <div>
+      <a
+        href="/teams/4"
+      >
+        Mt. Hoodies
+      </a>
+    </div>
+    <div>
+      <a
+        href="/teams/2"
+      >
+        Stumptown Lumberjacks
+      </a>
+    </div>
+    <div>
+      <a
+        href="/teams/5"
+      >
+        Vancougers
+      </a>
+    </div>
+  </div>
+</div>
+`;
