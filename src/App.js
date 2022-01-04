@@ -10,11 +10,13 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavLink exact to="/">
-          Home
-        </NavLink>
-        <NavLink to="/teams">Teams</NavLink>
-        <NavLink to="/players">Players</NavLink>
+        <header className="header">
+          <NavLink exact to="/">
+            Home
+          </NavLink>
+          <NavLink to="/teams">Teams</NavLink>
+          <NavLink to="/players">Players</NavLink>
+        </header>
 
         <Switch>
           <Route exact path="/" component={Home} />
