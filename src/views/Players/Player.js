@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getPlayerById } from '../../services/players';
 import PlayerDetail from '../../components/PlayerList/PlayerDetail';
+import './Players.css';
 
 export default function Player(props) {
   const id = props.match.params.id;
@@ -19,8 +20,8 @@ export default function Player(props) {
   if (loading) return <h3>Loading team...</h3>;
 
   return (
-    <>
+    <div className="detail">
       <PlayerDetail player={player} showDetail />
-    </>
+    </div>
   );
 }

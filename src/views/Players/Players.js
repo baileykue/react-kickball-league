@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { fetchPlayers } from '../../services/players';
 import PlayerList from '../../components/PlayerList/PlayerList';
+import './Players.css';
 
 export default function Players() {
   const [players, setPlayers] = useState([]);
@@ -14,7 +15,7 @@ export default function Players() {
   }, []);
 
   return (
-    <div>
+    <div className="players">
       <h1>These are the players</h1>
       {players.map((player) => (
         <PlayerList key={player.id} {...player} />
