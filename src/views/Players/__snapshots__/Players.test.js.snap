@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a team's details 1`] = `
+<div>
+  <div>
+    <h1>
+      Hans Olo
+    </h1>
+    <h2>
+      Position: 
+      Catcher
+    </h2>
+    <h3>
+      Team: 
+    </h3>
+    <a
+      href="/teams/1"
+    >
+      Bridge City Sneakers
+    </a>
+  </div>
+</div>
+`;
+
+exports[`should render all players 1`] = `
+<div>
+  <div>
+    <h1>
+      These are the players
+    </h1>
+    <div>
+      <a
+        href="/players/2"
+      >
+        Hans Olo
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/3"
+      >
+        Ron Long
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/4"
+      >
+        Shorty Biggum
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/5"
+      >
+        Gary Coolman
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/6"
+      >
+        Terry Cruise
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/7"
+      >
+        Bud E. Guy
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/8"
+      >
+        Buster Rimes
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/9"
+      >
+        Deb E. Downer
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/10"
+      >
+        Jayne Phonda
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/11"
+      >
+        Kara Whollot
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/12"
+      >
+        Betty Grey
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/13"
+      >
+        Dwayne Elizondo Mountain Dew Herbert Camacho
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/14"
+      >
+        Joe Bauers
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/15"
+      >
+        Frito P.
+      </a>
+    </div>
+    <div>
+      <a
+        href="/players/1"
+      >
+        Bennie Jetts
+      </a>
+    </div>
+  </div>
+</div>
+`;
