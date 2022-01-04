@@ -23,7 +23,7 @@ export default function Team(props) {
 
   return (
     <>
-      <TeamDetail team={team} showDetail />
+      <TeamDetail team={team[0]} showDetail />
     </>
   );
 }

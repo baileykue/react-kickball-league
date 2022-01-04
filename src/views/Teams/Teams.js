@@ -15,7 +15,7 @@ export default function Teams() {
 
   return (
     <div>
-      <h1>this is the teams page</h1>
+      <h1>These are the Teams</h1>
       {teams.map((team) => (
         <TeamList key={team.id} {...team} />
       ))}
