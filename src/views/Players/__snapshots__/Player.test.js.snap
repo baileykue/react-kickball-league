@@ -2,22 +2,28 @@
 
 exports[`should render a player's details 1`] = `
 <div>
-  <div>
-    <h1>
-      Hans Olo
-    </h1>
-    <h2>
-      Position: 
-      Catcher
-    </h2>
-    <h3>
-      Team: 
-    </h3>
-    <a
-      href="/teams/1"
+  <div
+    class="detail"
+  >
+    <div
+      class="detail"
     >
-      Bridge City Sneakers
-    </a>
+      <h1>
+        Hans Olo
+      </h1>
+      <h3>
+        Position: 
+        Catcher
+      </h3>
+      <label>
+        Team:
+        <a
+          href="/teams/1"
+        >
+          Bridge City Sneakers
+        </a>
+      </label>
+    </div>
   </div>
 </div>
 `;

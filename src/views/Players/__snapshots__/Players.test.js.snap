@@ -2,7 +2,9 @@
 
 exports[`should render all players 1`] = `
 <div>
-  <div>
+  <div
+    class="players"
+  >
     <h1>
       These are the players
     </h1>

@@ -2,7 +2,9 @@
 
 exports[`should render a list of teams 1`] = `
 <div>
-  <div>
+  <div
+    class="teams"
+  >
     <h1>
       These are the Teams
     </h1>
