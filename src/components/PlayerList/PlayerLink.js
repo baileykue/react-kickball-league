@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function PlayerLink({ player }) {
   return (
     <div>
-      <Link>{player.name}</Link>
+      <Link to={`/players/${player.id}`}>{player.name}</Link>
     </div>
   );
 }
