@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getTeamById } from '../../services/teams';
 import TeamDetail from '../../components/TeamList/TeamDetail';
+import './Teams.css';
 
 export default function Team(props) {
   const id = props.match.params.id;
@@ -22,8 +23,8 @@ export default function Team(props) {
   if (loading) return <h3>Loading team...</h3>;
 
   return (
-    <>
+    <div className="detail">
       <TeamDetail team={team[0]} showDetail />
-    </>
+    </div>
   );
 }
